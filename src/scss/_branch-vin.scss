@@ -1,0 +1,21 @@
+.container--vin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vinbilder {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.vinbilder img {
+  position: absolute;
+  height: 100%;
+}
+
+.treViner {
+  margin: 20px;
+}
