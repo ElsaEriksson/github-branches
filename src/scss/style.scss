@@ -1,5 +1,12 @@
-
 @use "branch-vin";
 @use "header";
-@use 'sectionFood';
+@use "sectionFood";
 @use "footer";
+
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
