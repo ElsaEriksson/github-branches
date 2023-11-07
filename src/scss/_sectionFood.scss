@@ -1,0 +1,58 @@
+
+@use 'mixins';
+
+.section___foodContainer {
+
+  
+    width: 100%;
+    height: fit-content;
+padding: 15px  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @include mixins.devices(desktop) {
+        flex-direction: row;
+        
+        }
+
+}
+
+.itemsContainer {
+
+width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 15px;
+   
+    @include mixins.devices(desktop) {
+        height: 100%;
+
+        
+        }
+
+    &___imageContainer {
+        width: clamp(310px, 30vw, 400px);
+        height: clamp(310px, 30vw, 400px);
+        border-radius: 50%;
+     box-shadow: 2px 0px 5px black;
+     border: 3px black solid;
+        overflow: hidden;
+
+        img {
+           height: 100%;
+       width: 100%;
+            object-fit: cover;
+
+        }
+
+    }
+    h3{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: clamp(20px, 2vw, 25px);
+
+    }
+
+}
