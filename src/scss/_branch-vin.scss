@@ -1,9 +1,20 @@
+@use "mixins";
+
 .container--vin {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.vinbehållare {
+  @include mixins.devices(desktop) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10%;
+  }
 }
 
 .vinbilder {
