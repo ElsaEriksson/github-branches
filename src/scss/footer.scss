@@ -1,0 +1,48 @@
+#footerInfo {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  height: auto;
+  background-color: #051c5b;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+#adressInfo {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contacktInfo {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#socialMedia {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#socialMedia a {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#socialMedia a:hover {
+  color: #808080;
+}
+
+
